@@ -3,31 +3,31 @@
     internal static class HubEvents
     {
 
-        public static string Receive { get; set; } = "Receive";
+        public static string Receive => "Receive";
 
-        public static string Send { get; set; } = "Send";
+        public static string Send => "Send";
 
-        public static string DeleteMessage { get; set; } = "DeleteMessage";
+        public static string DeleteMessage => "DeleteMessage";
 
-        public static string DeleteMessageReceived { get; set; } = "DeleteMessageReceived";
+        public static string DeleteMessageReceived => "DeleteMessageReceived";
 
-        public static string Register { get; set; } = "Register";
+        public static string Register => "Register";
 
-        public static string RegisterReceived { get; set; } = "RegisterReceived";
+        public static string RegisterReceived => "RegisterReceived";
 
-        public static string Login { get; set; } = "Login";
+        public static string Login => "Login";
 
-        public static string LoginReceived { get; set; } = "LoginReceived";
+        public static string LoginReceived => "LoginReceived";
 
-        public static string Connected { get; set; } = "Connected";
+        public static string Connected => "Connected";
 
-        public static string ConnectedReceived { get; set; } = "ConnectedReceived";
+        public static string ConnectedReceived => "ConnectedReceived";
 
-        public static string ConnectedCallerReceived { get; set; } = "ConnectedCallerReceived";
+        public static string ConnectedCallerReceived => "ConnectedCallerReceived";
 
-        public static string Disconnected { get; set; } = "Disconnected";
+        public static string Disconnected => "Disconnected";
 
-        public static string DisconnectedReceived { get; set; } = "DisconnectedReceived";
+        public static string DisconnectedReceived => "DisconnectedReceived";
 
 
     }
